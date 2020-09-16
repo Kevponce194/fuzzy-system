@@ -1,0 +1,102 @@
+html {
+    min-height: 100%;
+}
+
+* {
+    /* outline: solid 1px red; */
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    /* background: green; */
+    width: 100%;
+    float: left;
+    padding: 2% 2% 2% 4%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: inline;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 10vh;
+    text-shadow: 4px 4px 2px lightgrey;
+}
+
+li::before,
+h1::before {
+    content: '🐡';
+}
+
+span {
+    color: cornflowerblue;
+    /* font-family: Montserrat;
+    font-weight: 700; */
+}
+
+h3 {
+    color: black;
+    font-family: Montserrat;
+    font-size: 4vh;
+    font-weight: 700;
+    /* text-decoration: underline; */
+    line-height: 125%;
+    text-shadow: 3px 3px 2px lightgrey;
+}
+
+.list {
+    width: 40%;
+    height: 60%;
+    /* background: pink; */
+    float: left;
+    padding-left: 15px
+}
+
+li {
+    font-family: Montserrat;
+    font-size: 3vh;
+    font-weight: 700;
+    color: coral;
+    line-height: 200%;
+
+}
+
+.ocean {
+    /* background: aqua; */
+}
+
+.clear {
+    clear: both;
+    margin-top: 20px;
+}
+
+.fuzzyImg {
+    width: 60%;
+    /* background-color: aquamarine; */
+    float: left;
+}
+
+.fuzzyImg img {
+    transform: scaleX(-1);
+    width: 70%;
+    height: 40%;
+    margin-left: 40px;
+}
+
+/* #slide {
+    transition-property: all;
+    transition-delay: 10s;
+    transition: 3s;
+    left: 130px;
+} */
+
+.surfaceImg {
+    width: 100%;
+    height: 40%;
+    margin-top: 20px;
+}

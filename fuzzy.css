@@ -1,0 +1,107 @@
+* {
+    outline: solid 1px red;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 700px;
+    margin: 40px 0 0 0;
+    position: relative;
+}
+
+.header {
+    margin: 0 0 0 50px;
+    padding: 10px 10px 10px 0px;
+    float: left;
+    width: 100%
+}
+
+h1 {
+    display: inline;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h1::before {
+    content: '🐡';
+}
+
+h1 span {
+    color: cornflowerblue;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.container { 
+    outline: 5px solid blue;
+    width: 70%;
+    float: left;
+/* margin: 0 auto; */
+/* position:relative; */
+} 
+
+.theFish {
+    margin: 0 0 0 50px;
+    background: greenyellow;
+    overflow: auto;
+    float: left;
+    width: 70%;
+}
+
+.kevImg img {
+    padding-left: 0px;
+    width: 50%;
+    transform: scaleX(-1);
+}
+
+div.opening {
+    float: left;
+    font-family: Roboto;
+    font-weight: 700;
+    margin: 10px 0 0 20px;
+    color: cornflowerblue;
+
+}
+
+
+
+.list {
+    background: gray;
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+
+ul {
+    /* display: block; */
+    color: cornflowerblue;
+    list-style: none;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-left: 0 0 0 0;
+}
+
+/* div {
+    float: left;
+} */
+
+
+
+.ocean {
+    bottom: 0 0;
+}
+
+.surfaceImg {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+}
+
+/* img {
+    width: 100%;
+    vertical-align: bottom;
+    transform: scaleX(-1);
+} */
